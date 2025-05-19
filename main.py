@@ -1,17 +1,12 @@
 import os
-from dotenv import load_dotenv
 import whisper
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
-
 import streamlit as st
-
-load_dotenv("/mnt/data/projects/utils/.env")
 
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 #%%
-import whisper
 
 model = whisper.load_model("base")
 result = model.transcribe("your_audio.mp3")
@@ -82,11 +77,11 @@ st.markdown(
     unsafe_allow_html=True,
 )
 st.sidebar.image("logo-UNIRUY-Branco.png", width=350)
-st.sidebar.text("ChatBot de dúvidas para alunos do Centro Universitário Ruy Barbosa - UNIRUY")
-st.sidebar.text("Desenvolvido pelo Prof. Vítor E. Andrade")
+st.sidebar.text("YT Transcription AI")
+st.sidebar.text("Desenvolvido por Vítor Em.")
 st.sidebar.html("<a href='https://github.com/vitorpq'>GitHub</a>")
 # Streamlit Chat Interface
-st.title("AcademicBot Chat")
+st.title("OneScriber")
 # Initialize session state for chat history
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
