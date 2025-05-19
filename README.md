@@ -1,10 +1,7 @@
 <div align="left" style="position: relative;">
 <img src="https://img.icons8.com/external-tal-revivo-duo-tal-revivo/100/external-markdown-a-lightweight-markup-language-with-plain-text-formatting-syntax-logo-duo-tal-revivo.png" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>ONESCRIBER</h1>
-<p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
-</p>
-<p align="left">
+
 	<!-- Shields.io badges disabled, using skill icons. --></p>
 <p align="left">Built with the tools and technologies:</p>
 <p align="left">
@@ -134,9 +131,9 @@ Run the test suite using the following command:
 ---
 ## 📌 Project Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+- [X] **`Task 1`**: <strike>Update requiements.txt</strike>
+- [ ] **`Task 2`**: Implement YT download.
+- [ ] **`Task 3`**: Implement TXT download.
 
 ---
 
