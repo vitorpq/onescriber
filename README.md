@@ -79,3 +79,5 @@ Os resultados serão salvos na pasta `notas` em formato Markdown (se não especi
 - O programa utiliza o modelo "base" do Whisper para transcrição
 - O resumo é gerado usando GPT-4
 - Os arquivos temporários (vídeo e áudio) são automaticamente removidos após o processamento
+---
+*Este README foi atualizado automaticamente em 2026-06-23 09:23:59.*
